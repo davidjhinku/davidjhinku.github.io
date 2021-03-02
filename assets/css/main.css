@@ -3257,3 +3257,9 @@ input, select, textarea {
 		pointer-events: none;
 	}
 }
+
+/* Misc Styling */
+
+.work-hr {
+	margin: 1em 0;
+}
