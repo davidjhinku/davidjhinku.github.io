@@ -3263,3 +3263,17 @@ input, select, textarea {
 .work-hr {
 	margin: 1em 0;
 }
+
+div.skill {
+    /* border: 1px solid; */
+    width: 129px;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+i.skill {
+	font-size: 40px;
+}
