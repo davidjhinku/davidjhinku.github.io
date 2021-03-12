@@ -165,3 +165,14 @@ function ajax(method, url, data, success, error) {
 	};
 	xhr.send(data);
 }
+
+//smooth-scroll atag
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+	anchor.addEventListener('click', function(e) {
+		e.preventDefault();
+
+		document.querySelector(this.getAttribute('href')).scrollIntoView({
+			behavior: 'smooth'
+		});
+	});
+});
